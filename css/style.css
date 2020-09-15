@@ -1,0 +1,193 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+}
+
+body {
+    font-family: var(--main-font);
+    font-style: normal;
+    color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-text-color);
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Navigations */
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.contacts-header li {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+}
+
+.contacts-header a {
+    color: #757575;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.contacts-header a:hover,
+.contacts-header a:focus {
+    color: var(--accent-color);
+}
+
+/* logo */
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
+}
+
+.modal-btn {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* Преимущества вебстудии */
+
+.our-privilege h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.our-privilege p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+}    
+
+/* Чем мы занимаемся */
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,167;
+    letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+
+.our-team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+}
+
+.our-team p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+}
+
+/* Portfolio buttons */
+
+.portfolio-btn {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.portfolio-btn button:hover,
+.portfolio-btn button:focus {
+    color: #FFFFFF
+}
+
+/* Portfolio Items */
+
+.portfolio h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio a {
+    color: var(--title-text-color);
+}
+
+.portfolio p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
+
+
+/* Footer */
+
+.footer-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link.link-white {
+    color: #FFFFFF   
+}
+
+footer .logo {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
